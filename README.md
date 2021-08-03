@@ -13,7 +13,7 @@
 
 ## Getting Started
   
-Making your own version 
+To make your own version of the website
   
 - Download any text editor 
 - Use any web browser
