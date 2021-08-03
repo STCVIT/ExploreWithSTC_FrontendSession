@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>STCPay</title>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li onclick="window.location.href='login.html'">STC Pay</li>
+            <li id="left"><img src ="STC.svg" id="logo"></li>
+            <li><button onclick="window.location.href='login.html'">Log In</button></li>
+            <li><button onclick="window.location.href='index.html'">Sign Up</button></li>
+        </ul>
+        <hr>
+    </div>
+    <div class="mainsection">
+        <img src="Group 1.svg" id="pay"> 
+        <div class="left_part">
+        <h1>Log In</h1>
+        <form id="form">
+            <div class="input_one">
+                <label>Email Address</label><br>
+                <input id="email_add" type="text" required>
+            </div>
+            <div class="input_two">
+                <label>Password</label><br>
+                <input id="pass" type="password" required>
+            </div>
+            <button onclick="login()">Log In</button>
+        </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

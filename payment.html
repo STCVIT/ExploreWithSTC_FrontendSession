@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>STCPay</title>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li onclick="window.location.href='login.html'">STC Pay</li>
+            <li id="left"><img src ="STC.svg" id="logo"></li>
+            <li id="right" class="username" ><span id="user_name" >User</span></li>
+            <li id="right"><img src="carbon_user-avatar-filled-alt.svg"></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="mainsection3">
+        <p>Available Balance:<sub_text id="user_bal"><t id="total_balance">$100</t></sub_text></p>
+        <h1>Send Money</h1>
+        <form id="form3">
+            <div>
+                <label>Phone Number</label><br>
+                <input class="phone_number" type="text" id="pho_num" required>
+            </div>
+            <div>
+                <label>Password</label><br>
+                <input class="pass" type="password" id="passcode" required>
+            </div>
+            <div class="last">
+                <label>Amount</label><br>
+                <input class="amount" id="amount" type="text" required>
+            </div>
+            <button onclick="send_money()">SEND</button>
+        </form>
+    </div>
+    <script src="./payment.js"></script>
+</body>
+</html>
