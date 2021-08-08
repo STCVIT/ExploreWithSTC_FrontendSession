@@ -4,7 +4,7 @@
 <h1>STC Pay</h1>
 
 > <Subtitle>
-> Easy to build, beginner friendly website with interactive and attractive UI Design. It allow users to transfer money.
+> Get started with your journey of becoming a frontend developer with this easy to build, beginner friendly website with interactive and attractive UI Design  that allow the users to transfer money easily.
 
 ---
 [![Download ](https://img.shields.io/badge/-Get%20the%20link%20to%20the%20Website-brightgreen)]()
