@@ -12,7 +12,7 @@ function send_money(){
     let pin = document.getElementById("passcode").value.trim();
     let trans = document.getElementById("amount").value.trim();
     if(phone!= "" && trans != "" && pin!= ""){
-        if (trans<=100){
+        if (trans<=balance){
             balance=balance-trans;
             localStorage.setItem("balance",balance);
             document.getElementById("total_balance").innerHTML = "$"+balance;
